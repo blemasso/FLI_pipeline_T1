@@ -5,7 +5,7 @@ function die {
   exit 1
 }
 
-if [ $# != 4 ]
+if [ $# != 3 ]
 then
   echo "usage: $0 <nifti_image> <json_file> <output_file_name>"
   exit 1
