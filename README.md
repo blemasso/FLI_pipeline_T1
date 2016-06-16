@@ -1,4 +1,4 @@
-# FLI pipeline T2
+# FLI pipeline T1
 
 * ``matlab``: Matlab code of the pipeline
 
