@@ -4,7 +4,7 @@
   "tool-version": "0.1",
   "description": "Generate a T1_map from a Saturation/Recuperation (SR) sequence. <br><br><strong>Input</strong>: see hovers on parameters in the form below.<br><br><strong>Output</strong>:<ul><li>n = 4 volumes Nifti (3D images) in the same directory as the RAW data</li><li>T1map: 3D image with T2 fitted values for each voxel</li><li>M0map: 3D image with M0 (fitted values (amplitude) for each voxel</li><li>T1_Error_map: 3D image with the error value on the T1 adjustment</li><li>M0_Error_map: 3D image with the error value on the M0 adjustment</li></ul><br><strong>Authors</strong>: B. Lemasson",
   "command-line": "pipeline_T1.sh [IMAGE] [JSON_FILE] [OUTPUT_ARCHIVE]",
-  "docker-image": "viplatform/relaxo-blemasson",
+  "docker-image": "viplatform/relaxo-blemasson-t1",
   "docker-index": "http://index.docker.io",
   "schema-version": "0.2",
   "inputs": [
